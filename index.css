@@ -1,0 +1,61 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.yesorno {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.yes-container,
+.no-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yesbutton,
+#nobutton {
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: 0 15px;
+    font-family: Arial, sans-serif; 
+    border-radius: 9px; 
+    width: auto; 
+    height: auto; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+#yesbutton {
+    background-color: rgb(81,66,131);
+    color: white;
+    border: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 10px;
+    border-radius: 5px; 
+    color: purple; 
+}
+
+#nobutton {
+    background-color: black;
+    color: white;
+    border: none; 
+}
